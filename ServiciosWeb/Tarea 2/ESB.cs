@@ -23,7 +23,6 @@ namespace Tarea_2
             {
                 var resultString = request.Content.ReadAsStringAsync().Result;
                 Console.WriteLine(resultString);
-                Console.WriteLine("HOLAAAAA");
                 RecepcionSolicitudYAvisoPiloto(id);
             }
         }
